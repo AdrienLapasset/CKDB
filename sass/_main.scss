@@ -20,6 +20,7 @@ header {
   background-image: url("../assets/imgs/fond-header.jpg");
   background-size: cover;
   z-index: 1;
+  height: 350px;
   > *:nth-child(3) {
     margin: 0 60px;
   }
@@ -38,7 +39,10 @@ footer {
   margin-top: auto;
 }
 
-.teasing {
+.teasing,
+.confirmation,
+.modalites,
+.mentions {
   padding-top: 70px;
   background-image: url("../assets/imgs/fond-enfants.jpg");
   background-size: cover;
@@ -49,9 +53,16 @@ footer {
   align-items: center;
   width: 100%;
   min-height: calc(100vh - 240px);
+}
+
+.teasing {
   img {
     position: relative;
     left: 4px;
+    width: 650px;
+    @include media-breakpoint-up(sm) {
+      width: auto;
+    }
   }
 }
 
@@ -189,5 +200,42 @@ footer {
     position: absolute;
     bottom: -60px;
     right: -80px;
+  }
+}
+
+.confirmation {
+  img {
+    position: relative;
+    right: 20px;
+    width: 650px;
+    @include media-breakpoint-up(sm) {
+      width: auto;
+    }
+  }
+}
+
+.modalites {
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+  }
+  article {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    h2 {
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
   }
 }

@@ -6,8 +6,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-ul {
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -64,6 +63,7 @@ header {
   background-image: url("../assets/imgs/fond-header.jpg");
   background-size: cover;
   z-index: 1;
+  height: 350px;
 }
 
 header > *:nth-child(3) {
@@ -91,7 +91,10 @@ footer {
   margin-top: auto;
 }
 
-.teasing {
+.teasing,
+.confirmation,
+.modalites,
+.mentions {
   padding-top: 70px;
   background-image: url("../assets/imgs/fond-enfants.jpg");
   background-size: cover;
@@ -116,6 +119,13 @@ footer {
 .teasing img {
   position: relative;
   left: 4px;
+  width: 650px;
+}
+
+@media (min-width: 576px) {
+  .teasing img {
+    width: auto;
+  }
 }
 
 .home {
@@ -329,5 +339,45 @@ footer {
   position: absolute;
   bottom: -60px;
   right: -80px;
+}
+
+.confirmation img {
+  position: relative;
+  right: 20px;
+  width: 650px;
+}
+
+@media (min-width: 576px) {
+  .confirmation img {
+    width: auto;
+  }
+}
+
+.modalites h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+.modalites article {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.modalites article h2 {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.modalites article p {
+  margin-bottom: 30px;
+}
+
+.modalites article ul {
+  padding-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -13,18 +13,11 @@
 </head>
 
 <body>
-  <div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">
-    <div class="w-100">
-      <h1>Pages :</h1>
-      <div class="list-group">
-        <a class="list-group-item list-group-item-action" href="/home.php">Home</a>
-        <a class="list-group-item list-group-item-action" href="/teasing.php">Teasing</a>
-        <a class="list-group-item list-group-item-action" href="/confirmation.php">Confirmation</a>
-        <a class="list-group-item list-group-item-action" href="/modalites.php">Modalités</a>
-        <a class="list-group-item list-group-item-action" href="/mentions.php">Mentions</a>
-      </div>
-    </div>
-  </div>
+  <?php include 'header.php'; ?>
+  <main class="teasing">
+    <img src="assets/imgs/teasing.png" alt="">
+    <?php include 'footer.php'; ?>
+  </main>
 </body>
 
 <!-- JS Imports -->
