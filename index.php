@@ -14,10 +14,10 @@
 
 <body>
   <?php include 'header.php'; ?>
-  <main>
-    <img class="teasing" src="assets/imgs/teasing.png" alt="">
+  <main class="teasing">
+    <img src="assets/imgs/teasing.png" alt="">
+    <?php include 'footer.php'; ?>
   </main>
-  <?php include 'footer.php'; ?>
 </body>
 
 <!-- JS Imports -->
