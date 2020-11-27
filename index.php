@@ -22,6 +22,7 @@
         <a class="list-group-item list-group-item-action" href="/confirmation.php">Confirmation</a>
         <a class="list-group-item list-group-item-action" href="/modalites.php">Modalités</a>
         <a class="list-group-item list-group-item-action" href="/mentions.php">Mentions</a>
+        <a class="list-group-item list-group-item-action" href="/fin-du-jeu.php">Fin du jeu</a>
       </div>
     </div>
   </div>

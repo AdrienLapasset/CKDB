@@ -94,7 +94,8 @@ footer {
 .teasing,
 .confirmation,
 .modalites,
-.mentions {
+.mentions,
+.fin-du-jeu {
   padding-top: 70px;
   background-image: url("../assets/imgs/fond-enfants.jpg");
   background-size: cover;
@@ -379,5 +380,44 @@ footer {
 
 .modalites article ul {
   padding-left: 20px;
+}
+
+.suivez-actualite {
+  color: #d90000;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.suivez-actualite a {
+  font-weight: 500;
+  margin: 10px 0;
+  background-color: #d90000;
+  border-radius: 10px;
+  width: 250px;
+  color: white;
+  display: inline-block;
+  padding: 2px;
+}
+
+.suivez-actualite a img {
+  width: auto;
+  position: relative;
+  bottom: 2px;
+  left: 0px;
+}
+
+.fin-du-jeu {
+  position: relative;
+}
+
+.fin-du-jeu .dates {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 22px;
+  top: 450px;
+  position: absolute;
+  color: #3f3e3e;
 }
 /*# sourceMappingURL=style.css.map */

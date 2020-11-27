@@ -13,10 +13,11 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'partials/header.php'; ?>
   <main class="confirmation">
     <img src="assets/imgs/confirmation.png" alt="">
-    <?php include 'footer.php'; ?>
+    <?php include 'partials/suivez-actualite.php'; ?>
+    <?php include 'partials/footer.php'; ?>
   </main>
 </body>
 

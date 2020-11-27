@@ -14,8 +14,11 @@
 
 <body>
   <?php include 'partials/header.php'; ?>
-  <main class="teasing">
-    <img src="assets/imgs/teasing.png" alt="">
+  <main class="fin-du-jeu">
+    <p class="dates">du XX/XX/2012<br>
+      au XX/XX/2012</p>
+    <img src="assets/imgs/fin-du-jeu.png" alt="">
+    <?php include 'partials/suivez-actualite.php'; ?>
     <?php include 'partials/footer.php'; ?>
   </main>
 </body>

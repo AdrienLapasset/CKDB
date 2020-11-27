@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'partials/header.php'; ?>
   <main class="modalites">
     <h1>Modalités</h1>
     <div class="container">
@@ -109,7 +109,7 @@
         </p>
       </article>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include 'partials/footer.php'; ?>
   </main>
 </body>
 

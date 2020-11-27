@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'partials/header.php'; ?>
   <main class="home">
 
     <div class="text-container">
@@ -65,7 +65,7 @@
         <p class="modalites">
           Hasbro met en œuvre des traitements de données à caractère personnel ayant pour ﬁnalités la conservation des preuves d’achat, la gestion et le suivi de l’organisation de l’opération de jeu, la vériﬁcation et le contrôle du respect des dispositions du règlement de jeu, l’analyse de la régularité de la participation, la gestion de la relation avec les participants, le pilotage, le reporting et les statistiques. Vous disposez d’un droit d’accès, de rectiﬁcation, de portabilité, d’effacement de vos données à caractère personnel et de limitation du traitement de vos données ainsi que d’un droit d’opposition et du droit de déﬁnir des directives relatives à la conservation, à l’effacement et à la communication de vos données à caractère personnel après votre décès. Pour en savoir plus sur la protection de vos données, consultez l’article 5 des modalités de l’Offre.
         </p>
-        <?php include 'footer.php'; ?>
+        <?php include 'partials/footer.php'; ?>
         <img class="playdoh-img" src="assets/imgs/playdoh-bleu.png" alt="">
       </form>
     </div>
