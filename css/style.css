@@ -96,6 +96,7 @@ footer {
 .modalites,
 .mentions,
 .fin-du-jeu {
+  overflow: hidden;
   padding-top: 70px;
   background-image: url("../assets/imgs/fond-enfants.jpg");
   background-size: cover;
@@ -138,7 +139,7 @@ footer {
   text-align: center;
   background-image: url("../assets/imgs/fond-enfants-home.jpg");
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,9 +211,10 @@ footer {
 }
 
 .home .text-container .activez-vite {
+  font-weight: 900;
   font-size: 32px;
   margin-bottom: 20px;
-  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+  -webkit-text-stroke: 2.5px white;
 }
 
 .home .form-container {
@@ -317,7 +319,7 @@ footer {
   margin-right: auto;
 }
 
-.home .form-container .modalites {
+.home .form-container .modalites-text {
   text-align: justify;
   margin-top: 10px;
   font-size: 10px;
@@ -340,6 +342,13 @@ footer {
   position: absolute;
   bottom: -60px;
   right: -80px;
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .home .fleche {
+    display: block;
+  }
 }
 
 .confirmation img {
@@ -363,7 +372,8 @@ footer {
 }
 
 .modalites article {
-  margin-top: 20px;
+  max-width: 640px;
+  margin: 20px auto 0;
   padding: 20px;
   border-radius: 10px;
   background-color: white;
@@ -416,8 +426,31 @@ footer {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 22px;
-  top: 450px;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+  top: 316px;
+  z-index: 1;
   position: absolute;
   color: #3f3e3e;
+}
+
+@media (min-width: 576px) {
+  .fin-du-jeu .dates {
+    top: 450px;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fin-du-jeu img {
+  width: 650px;
+  position: relative;
+  right: 15px;
+}
+
+@media (min-width: 576px) {
+  .fin-du-jeu img {
+    width: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

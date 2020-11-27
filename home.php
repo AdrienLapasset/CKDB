@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Hasbro</title>
+  <title>CEKEDUBONHEUR</title>
   <meta name="description" content="">
   <link rel="icon" type="image/png" href="/assets/imgs/favicon.png">
   <link rel="stylesheet" href="modules/bootstrap-4.5.3/dist/css/bootstrap.min.css">
@@ -62,7 +62,7 @@
           </div><iframe style="display: none;"></iframe>
         </div>
         <input type="submit" value="Valider">
-        <p class="modalites">
+        <p class="modalites-text">
           Hasbro met en œuvre des traitements de données à caractère personnel ayant pour ﬁnalités la conservation des preuves d’achat, la gestion et le suivi de l’organisation de l’opération de jeu, la vériﬁcation et le contrôle du respect des dispositions du règlement de jeu, l’analyse de la régularité de la participation, la gestion de la relation avec les participants, le pilotage, le reporting et les statistiques. Vous disposez d’un droit d’accès, de rectiﬁcation, de portabilité, d’effacement de vos données à caractère personnel et de limitation du traitement de vos données ainsi que d’un droit d’opposition et du droit de déﬁnir des directives relatives à la conservation, à l’effacement et à la communication de vos données à caractère personnel après votre décès. Pour en savoir plus sur la protection de vos données, consultez l’article 5 des modalités de l’Offre.
         </p>
         <?php include 'partials/footer.php'; ?>
@@ -71,9 +71,5 @@
     </div>
   </main>
 </body>
-
-<!-- JS Imports -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="modules/bootstrap-4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>

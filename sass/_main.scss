@@ -4,10 +4,6 @@ body {
   align-items: center;
   width: 100vw;
   min-height: 100vh;
-  // background-image: url("../assets/imgs/fond.jpg");
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // background-position: top center;
 }
 
 header {
@@ -26,8 +22,6 @@ header {
   }
   @include media-breakpoint-up(md) {
     flex-direction: row;
-    // position: relative;
-    // right: 40px;
     align-items: flex-start;
     justify-content: center;
     height: 240px;
@@ -44,6 +38,7 @@ footer {
 .modalites,
 .mentions,
 .fin-du-jeu {
+  overflow: hidden;
   padding-top: 70px;
   background-image: url("../assets/imgs/fond-enfants.jpg");
   background-size: cover;
@@ -74,7 +69,7 @@ footer {
     text-align: center;
     background-image: url("../assets/imgs/fond-enfants-home.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,9 +115,10 @@ footer {
       }
     }
     .activez-vite {
+      font-weight: 900;
       font-size: 32px;
       margin-bottom: 20px;
-      text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+      -webkit-text-stroke: 2.5px white;
     }
   }
   .form-container {
@@ -181,7 +177,7 @@ footer {
       margin: 20px 0;
       margin-right: auto;
     }
-    .modalites {
+    .modalites-text {
       text-align: justify;
       margin-top: 10px;
       font-size: 10px;
@@ -201,6 +197,10 @@ footer {
     position: absolute;
     bottom: -60px;
     right: -80px;
+    display: none;
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
   }
 }
 
@@ -224,7 +224,8 @@ footer {
     border-bottom: 2px solid black;
   }
   article {
-    margin-top: 20px;
+    max-width: 640px;
+    margin: 20px auto 0;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
@@ -271,8 +272,22 @@ footer {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 22px;
-    top: 450px;
+    transform: translateX(-10px);
+    top: 316px;
+    z-index: 1;
     position: absolute;
     color: $grey;
+    @include media-breakpoint-up(sm) {
+      top: 450px;
+      transform: none;
+    }
+  }
+  img {
+    width: 650px;
+    position: relative;
+    right: 15px;
+    @include media-breakpoint-up(sm) {
+      width: auto;
+    }
   }
 }
