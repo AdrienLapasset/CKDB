@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  // background-image: url("../assets/imgs/fond.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: top center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+  background-image: url("../assets/imgs/fond-header.jpg");
+  background-size: cover;
+  z-index: 1;
+  > *:nth-child(3) {
+    margin: 0 60px;
+  }
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    // position: relative;
+    // right: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    height: 240px;
+  }
+}
+
+footer {
+  padding: 20px;
+  margin-top: auto;
+}
+
+.teasing {
+  position: relative;
+  left: 4px;
+}
+
+.home {
+  width: 100%;
+  .text-container {
+    padding: 70px 15px 0;
+    text-align: center;
+    background-image: url("../assets/imgs/fond-enfants-home.jpg");
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .hasbro-s-associe {
+      background: #ffffff50;
+      padding: 20px;
+      border-radius: 5px;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .text-red {
+      position: relative;
+      font-size: 26px;
+      font-weight: 700;
+      color: $red;
+      text-transform: uppercase;
+    }
+    .aidez-nous {
+      margin-top: 20px;
+      font-weight: 900;
+    }
+    .deja {
+      font-size: 21px;
+      margin-bottom: 10px;
+    }
+    .compteur {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        border: 1px solid $red;
+        padding: 0 5px;
+        margin-right: 2px;
+      }
+      .mercis {
+        display: inline-block;
+        font-size: 21px;
+        margin-left: 5px;
+      }
+    }
+    .activez-vite {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    }
+  }
+  .form-container {
+    text-align: left;
+    width: 100%;
+    padding: 30px 15px 0;
+    background-image: url("../assets/imgs/fond-rouge.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    form {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @include media-breakpoint-up(sm) {
+        width: 360px;
+      }
+      input {
+        font-size: 14px;
+        padding: 0 20px;
+        height: 28px;
+        width: 100%;
+        &[type="submit"] {
+          width: auto;
+          height: auto;
+          border: none;
+          text-transform: uppercase;
+          font-weight: 800;
+          background-color: #384048;
+          color: white;
+          font-size: 25px;
+          padding: 5px 10px;
+        }
+      }
+      ::placeholder {
+        color: black;
+      }
+      label {
+        margin-bottom: 0;
+      }
+      .checkbox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        input {
+          flex: 0 0 20px;
+          margin-right: 5px;
+        }
+      }
+    }
+    .g-recaptcha {
+      margin: 20px 0;
+      margin-right: auto;
+    }
+    .modalites {
+      text-align: justify;
+      margin-top: 10px;
+      font-size: 10px;
+    }
+  }
+  .playdoh-img {
+    position: absolute;
+    bottom: 0;
+    &:first-child {
+      left: -400px;
+    }
+    &:last-child {
+      right: -400px;
+    }
+  }
+  .fleche {
+    position: absolute;
+    bottom: -60px;
+    right: -80px;
+  }
+}

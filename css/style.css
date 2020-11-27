@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;800;900&display=swap");
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../assets/imgs/fond-header.jpg");
+  background-size: cover;
+  z-index: 1;
+}
+
+header > *:nth-child(3) {
+  margin: 0 60px;
+}
+
+@media (min-width: 768px) {
+  header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 240px;
+  }
+}
+
+footer {
+  padding: 20px;
+  margin-top: auto;
+}
+
+.teasing {
+  position: relative;
+  left: 4px;
+}
+
+.home {
+  width: 100%;
+}
+
+.home .text-container {
+  padding: 70px 15px 0;
+  text-align: center;
+  background-image: url("../assets/imgs/fond-enfants-home.jpg");
+  background-size: cover;
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .text-container .hasbro-s-associe {
+  background: #ffffff50;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home .text-container .text-red {
+  position: relative;
+  font-size: 26px;
+  font-weight: 700;
+  color: #d90000;
+  text-transform: uppercase;
+}
+
+.home .text-container .aidez-nous {
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.home .text-container .deja {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.home .text-container .compteur {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .text-container .compteur span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  border: 1px solid #d90000;
+  padding: 0 5px;
+  margin-right: 2px;
+}
+
+.home .text-container .compteur .mercis {
+  display: inline-block;
+  font-size: 21px;
+  margin-left: 5px;
+}
+
+.home .text-container .activez-vite {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+
+.home .form-container {
+  text-align: left;
+  width: 100%;
+  padding: 30px 15px 0;
+  background-image: url("../assets/imgs/fond-rouge.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  overflow: hidden;
+}
+
+.home .form-container form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 576px) {
+  .home .form-container form {
+    width: 360px;
+  }
+}
+
+.home .form-container form input {
+  font-size: 14px;
+  padding: 0 20px;
+  height: 28px;
+  width: 100%;
+}
+
+.home .form-container form input[type="submit"] {
+  width: auto;
+  height: auto;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #384048;
+  color: white;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.home .form-container form ::-webkit-input-placeholder {
+  color: black;
+}
+
+.home .form-container form :-ms-input-placeholder {
+  color: black;
+}
+
+.home .form-container form ::-ms-input-placeholder {
+  color: black;
+}
+
+.home .form-container form ::placeholder {
+  color: black;
+}
+
+.home .form-container form label {
+  margin-bottom: 0;
+}
+
+.home .form-container form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.home .form-container form .checkbox input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20px;
+          flex: 0 0 20px;
+  margin-right: 5px;
+}
+
+.home .form-container .g-recaptcha {
+  margin: 20px 0;
+  margin-right: auto;
+}
+
+.home .form-container .modalites {
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.home .playdoh-img {
+  position: absolute;
+  bottom: 0;
+}
+
+.home .playdoh-img:first-child {
+  left: -400px;
+}
+
+.home .playdoh-img:last-child {
+  right: -400px;
+}
+
+.home .fleche {
+  position: absolute;
+  bottom: -60px;
+  right: -80px;
+}
+/*# sourceMappingURL=style.css.map */
