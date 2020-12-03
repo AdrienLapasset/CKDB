@@ -17,7 +17,7 @@
     <h1>Modalités</h1>
     <div class="container">
       <article>
-        <p>
+        <p class="text-center">
           MODALITÉS DE L’OFFRE HASBRO ETRENNES EN ASSOCIATION AVEC CEKEDUBONHEUR<br>
           « JOUEZ C’EST QUE DU BONHEUR »
         </p>

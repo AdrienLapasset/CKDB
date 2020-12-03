@@ -51,6 +51,16 @@ footer {
   min-height: calc(100vh - 240px);
 }
 
+.modalites,
+.mentions {
+  background-image: url("../assets/imgs/fond-sans-enfants.jpg");
+}
+
+.fin-du-jeu {
+  background-image: url("../assets/imgs/fond-fin-du-jeu.jpg");
+  background-position: center;
+}
+
 .teasing {
   img {
     position: relative;

@@ -14,7 +14,7 @@
 <body>
   <?php include 'partials/header.php'; ?>
   <main class="modalites">
-    <h1>Modalités</h1>
+    <h1>Mentions Légales</h1>
     <div class="container">
       <article>
         <p>
