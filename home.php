@@ -44,8 +44,11 @@
     <div class="form-container">
       <form>
         <img class="playdoh-img" src="assets/imgs/playdoh-vert.png" alt="">
-        <input placeholder="*Entrez votre adresse E-mail" type="email" name="email" required>
         <label>*champs obligatoires</label>
+        <input placeholder="*Entrez votre adresse E-mail" type="email" name="email" required>
+        <label class="produit-label">Produit 1 :</label>
+        <input placeholder="*Entrez votre code barres produits (13 chiffres)" type="text" name="code" required>
+        <label class="produit-label">Produit 2 :</label>
         <input placeholder="*Entrez votre code barres produits (13 chiffres)" type="text" name="code" required>
         <div class="checkbox mt-3">
           <input type="checkbox" name="modalites" required>
@@ -65,7 +68,7 @@
           Hasbro met en œuvre des traitements de données à caractère personnel ayant pour ﬁnalités la conservation des preuves d’achat, la gestion et le suivi de l’organisation de l’opération de jeu, la vériﬁcation et le contrôle du respect des dispositions du règlement de jeu, l’analyse de la régularité de la participation, la gestion de la relation avec les participants, le pilotage, le reporting et les statistiques. Vous disposez d’un droit d’accès, de rectiﬁcation, de portabilité, d’effacement de vos données à caractère personnel et de limitation du traitement de vos données ainsi que d’un droit d’opposition et du droit de déﬁnir des directives relatives à la conservation, à l’effacement et à la communication de vos données à caractère personnel après votre décès. Pour en savoir plus sur la protection de vos données, consultez l’article 5 des modalités de l’Offre.
         </p>
         <?php include 'partials/footer.php'; ?>
-        <img class="playdoh-img" src="assets/imgs/playdoh-bleu.png" alt="">
+        <img class="playdoh-img" src="assets/imgs/playdoh-orange.png" alt="">
       </form>
     </div>
   </main>

@@ -15,6 +15,7 @@
 <body>
   <?php include 'partials/header.php'; ?>
   <main class="teasing">
+    <h1>RENDEZ-VOUS LE 08 mars 2021</h1>
     <img src="assets/imgs/teasing.png" alt="">
     <?php include 'partials/footer.php'; ?>
   </main>
