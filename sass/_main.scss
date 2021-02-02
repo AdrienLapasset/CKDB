@@ -296,16 +296,17 @@ footer {
     font-weight: 800;
     font-size: 22px;
     transform: translateX(-10px);
-    top: 316px;
+    top: 390px;
     z-index: 1;
     position: absolute;
     color: $grey;
     @include media-breakpoint-up(sm) {
-      top: 450px;
+      top: 518px;
       transform: none;
     }
   }
-  img {
+  .principale {
+    margin-top: 70px;
     width: 650px;
     position: relative;
     right: 15px;

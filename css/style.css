@@ -454,7 +454,7 @@ footer {
   font-size: 22px;
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
-  top: 316px;
+  top: 390px;
   z-index: 1;
   position: absolute;
   color: #3f3e3e;
@@ -462,20 +462,21 @@ footer {
 
 @media (min-width: 576px) {
   .fin-du-jeu .dates {
-    top: 450px;
+    top: 518px;
     -webkit-transform: none;
             transform: none;
   }
 }
 
-.fin-du-jeu img {
+.fin-du-jeu .principale {
+  margin-top: 70px;
   width: 650px;
   position: relative;
   right: 15px;
 }
 
 @media (min-width: 576px) {
-  .fin-du-jeu img {
+  .fin-du-jeu .principale {
     width: auto;
   }
 }
