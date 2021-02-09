@@ -14,8 +14,8 @@
 <body>
   <?php include 'partials/header.php'; ?>
   <main class="fin-du-jeu">
-    <p class="dates">du XX/XX/2021<br>
-      au XX/XX/2021</p>
+    <p class="dates">du 01/06/2021<br>
+      au 31/08/2021</p>
     <img class="principale" src="assets/imgs/fin-du-jeu.png" alt="">
     <?php include 'partials/suivez-actualite.php'; ?>
     <?php include 'partials/footer.php'; ?>
